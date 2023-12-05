@@ -8,8 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "node-hue-api": "^5.0.0-beta.16"
-  }
+  "license": "ISC"
 }
