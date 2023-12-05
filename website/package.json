@@ -1,0 +1,15 @@
+{
+  "name": "12_project2",
+  "version": "1.0.0",
+  "description": "A dashboard for a house.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-hue-api": "^5.0.0-beta.16"
+  }
+}
