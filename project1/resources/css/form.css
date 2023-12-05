@@ -1,0 +1,53 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 1rem;
+
+  width: 100%;
+}
+
+form > div {
+  display: flex;
+
+  width: 100%;
+
+  border-radius: var(--border-radius);
+  border: solid 2px var(--theme-color);
+  background-color: var(--theme-color);
+}
+
+form > div :first-child {
+  padding: 0.4rem 0.1rem;
+  padding-right: 0.8rem;
+  width: 2rem;
+}
+
+form > div i {
+  color: var(--color-dark);
+}
+
+form > div :last-child {
+  width: 100%;
+  padding: 0 0.8rem;
+  outline: none;
+  border-top-right-radius: calc(var(--border-radius) - 0.1rem);
+  border-bottom-right-radius: calc(var(--border-radius) - 0.1rem);
+}
+
+form > div textarea {
+  border-top-left-radius: calc(var(--border-radius) - 0.1rem);
+  border-bottom-left-radius: calc(var(--border-radius) - 0.1rem);
+  outline: none;
+}
+
+form > div:last-child * {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: calc(var(--border-radius) - 0.1rem);
+  background-color: var(--theme-color);
+  color: var(--color-dark);
+  text-shadow: 0 0 5px black;
+  cursor: pointer;
+}
